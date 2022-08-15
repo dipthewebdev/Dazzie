@@ -1,0 +1,924 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.OrdersRoot {
+  width: 1264px;
+  height: 1045px;
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 29px;
+  align-items: center;
+  padding: 120px 32px 120px 144px;
+
+  background-color: #f7f7fc;
+  .shortInfo {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    align-items: center;
+    .container8 {
+      width: 292px;
+      background-color: #ffffff;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      border-radius: 8px;
+      padding: 24px 0px;
+      .flexColumn {
+        width: 168px;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        justify-content: center;
+        flex-grow: 1;
+        align-items: center;
+        .text1 {
+          font-size: 16px;
+          font-family: "Mulish", sans-serif;
+          font-weight: 700;
+          letter-spacing: 0.08px;
+          line-height: 19.2px;
+          color: #11142d;
+        }
+        .text2 {
+          font-size: 16px;
+          font-family: "Mulish", sans-serif;
+          font-weight: 700;
+          letter-spacing: 0.08px;
+          line-height: 19.2px;
+          color: #11142d;
+          align-items: flex-start;
+        }
+      }
+      .flexColumn1 {
+        display: flex;
+        flex-direction: column;
+        gap: 19px;
+        justify-content: center;
+        flex-grow: 1;
+        align-items: center;
+        .arrowDown1 {
+          width: 16px;
+          height: 16px;
+          align-items: flex-end;
+        }
+        .text3 {
+          text-align: right;
+          font-size: 16px;
+          font-family: "Mulish", sans-serif;
+          font-weight: 700;
+          letter-spacing: 0.08px;
+          line-height: 19.2px;
+        }
+      }
+    }
+  }
+  .latest-order {
+    align-items: flex-start;
+    display: flex;
+    height: 622px;
+    min-width: 1191px;
+    position: relative;
+    gap: 65px;
+    .container {
+      align-items: flex-start;
+      background-color: #ffffff;
+      border: 8px;
+      display: flex;
+      flex-direction: column;
+      min-height: 622px;
+      padding: 24px 0;
+      width: 832px;
+      .latestOrder-1 {
+        letter-spacing: 0.08px;
+        line-height: 19.2px;
+        margin-left: 15.24px;
+        margin-top: 10px;
+        min-height: 38px;
+        width: 92px;
+        color: #11142d;
+        font-family: "Mulish", sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        font-style: normal;
+      }
+      .tabel {
+        align-self: flex-end;
+        height: 518px;
+        margin-top: 8px;
+        position: relative;
+        width: 817px;
+        .tabelHeader {
+          align-items: flex-start;
+          display: flex;
+          flex-direction: column;
+          left: 0;
+          min-height: 454px;
+          position: absolute;
+          top: 6px;
+          width: 817px;
+          .divider7 {
+            height: 1px;
+            left: 0;
+            position: absolute;
+            top: 64px;
+            width: 798px;
+          }
+          .tableHeader {
+            align-items: flex-start;
+            background-color: #f7f7fc;
+            display: flex;
+            flex-direction: column;
+            height: 64px;
+            justify-content: center;
+            left: 44px;
+            padding: 20px 16px 20px 22px;
+            position: absolute;
+            top: 0;
+            width: 333px;
+            .roundHeaderNormal1 {
+              letter-spacing: 0.08px;
+              line-height: 19.2px;
+              opacity: 0.8;
+              white-space: nowrap;
+              margin-right: -42.69px;
+              color: #11142d;
+              font-family: "Mulish", sans-serif;
+              font-size: 16px;
+              font-weight: 700;
+              font-style: normal;
+            }
+          }
+          .tableHeader1 {
+            width: 157.31px;
+            height: 64px;
+            background-color: #f6f6fb;
+            display: flex;
+            overflow: hidden;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            position: absolute;
+            left: 376.92px;
+            padding: 20px 16px 20px 22px;
+            .roundHeaderNormal1 {
+              letter-spacing: 0.08px;
+              line-height: 19.2px;
+              opacity: 0.8;
+              white-space: nowrap;
+              margin-right: -42.69px;
+              color: #11142d;
+              font-family: "Mulish", sans-serif;
+              font-size: 16px;
+              font-weight: 700;
+              font-style: normal;
+            }
+          }
+          .tableHeader2 {
+            width: 143.63px;
+            height: 64px;
+            background-color: #f6f6fb;
+            display: flex;
+            overflow: hidden;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            position: absolute;
+            left: 529.35px;
+            padding: 20px 16px 20px 22px;
+            .roundHeaderNormal1 {
+              letter-spacing: 0.08px;
+              line-height: 19.2px;
+              opacity: 0.8;
+              white-space: nowrap;
+              margin-right: -42.69px;
+              color: #11142d;
+              font-family: "Mulish", sans-serif;
+              font-size: 16px;
+              font-weight: 700;
+              font-style: normal;
+            }
+          }
+          .tableHeader3 {
+            width: 125.67px;
+            height: 64px;
+            background-color: #f6f6fb;
+            display: flex;
+            overflow: hidden;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            position: absolute;
+            left: 673.09px;
+            padding: 20px 1px 20px 1px;
+            .roundHeaderNormal1 {
+              letter-spacing: 0.08px;
+              line-height: 19.2px;
+              opacity: 0.8;
+              white-space: nowrap;
+              margin-right: -42.69px;
+              color: #11142d;
+              font-family: "Mulish", sans-serif;
+              font-size: 16px;
+              font-weight: 700;
+              font-style: normal;
+            }
+          }
+          .tableHeader4 {
+            align-items: flex-start;
+            background-color: #f6f6fb;
+            display: flex;
+            flex-direction: column;
+            height: 64px;
+            justify-content: center;
+            padding: 20px 19px 20px 22px;
+            width: 65px;
+            .whiteText {
+              letter-spacing: 0.08px;
+              line-height: 19.2px;
+              opacity: 0.8;
+              white-space: nowrap;
+              margin-right: -42.69px;
+              color: #11142d;
+              font-family: "Mulish", sans-serif;
+              font-size: 16px;
+              font-weight: 700;
+              font-style: normal;
+            }
+          }
+          .divider8 {
+            width: 798.05px;
+            height: 0.5px;
+            position: absolute;
+            top: -0.25px;
+          }
+        }
+        .tabelContent {
+          align-items: flex-start;
+          display: flex;
+          flex-direction: column;
+          left: 0;
+          min-height: 454px;
+          position: absolute;
+          top: 75px;
+          width: 817px;
+          .listProduct7 {
+            height: 57px;
+            position: relative;
+            width: 817px;
+            .divider6 {
+              width: 817px;
+              height: 1px;
+              position: absolute;
+              top: 56px;
+            }
+            .product7 {
+              align-items: flex-start;
+              display: flex;
+              height: 56px;
+              left: 0;
+              min-width: 776px;
+              position: absolute;
+              top: 0;
+              .whiteText1 {
+                display: flex;
+                font-size: 16px;
+                font-family: "Mulish", sans-serif;
+                letter-spacing: 0.08px;
+                line-height: 19.2px;
+                color: #11142d;
+                width: 44.42px;
+                flex-direction: column;
+                gap: 10px;
+                justify-content: center;
+                align-items: center;
+                padding: 50px 1px 10px 1px;
+              }
+              .element17 {
+                width: 171.04px;
+                height: 56px;
+                position: relative;
+                flex-grow: 1;
+                .tableRow35 {
+                  width: 87.69px;
+                  display: flex;
+                  flex-direction: column;
+                  gap: 10px;
+                  justify-content: flex-start;
+                  align-items: flex-start;
+                  position: absolute;
+                  padding: 50px 1px;
+                  .flexRow1 {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    .rowSpaced28 {
+                      font-size: 16px;
+                      font-family: "Mulish", sans-serif;
+                      letter-spacing: 0.08px;
+                      line-height: 19.2px;
+                      color: #11142d;
+                    }
+                  }
+                }
+                .tableRow36 {
+                  width: 147px;
+                  display: flex;
+                  flex-direction: column;
+                  gap: 10px;
+                  justify-content: flex-start;
+                  align-items: flex-start;
+                  position: absolute;
+                  left: 497.34px;
+                  padding: 50px 10px;
+                }
+                .tableRow37 {
+                  width: 161px;
+                  display: flex;
+                  flex-direction: column;
+                  gap: 10px;
+                  justify-content: flex-start;
+                  align-items: flex-start;
+                  position: absolute;
+                  left: 360px;
+                  padding: 50px 10px;
+                }
+                .tableRow38 {
+                  width: 171.04px;
+                  display: flex;
+                  flex-direction: column;
+                  gap: 10px;
+                  justify-content: flex-start;
+                  align-items: flex-start;
+                  position: absolute;
+                  padding: 50px 10px;
+                }
+              }
+            }
+          }
+          .element20 {
+            height: 113px;
+            position: relative;
+            min-width: 816.76px;
+            .listProduct4 {
+              width: 816.76px;
+              height: 56px;
+              position: absolute;
+              top: 57px;
+              .product7 {
+                align-items: flex-start;
+                display: flex;
+                height: 56px;
+                left: 0;
+                min-width: 776px;
+                position: absolute;
+                top: 0;
+                .whiteText1 {
+                  display: flex;
+                  font-size: 16px;
+                  font-family: "Mulish", sans-serif;
+                  letter-spacing: 0.08px;
+                  line-height: 19.2px;
+                  color: #11142d;
+                  width: 44.42px;
+                  flex-direction: column;
+                  gap: 10px;
+                  justify-content: center;
+                  align-items: center;
+                  padding: 75px 1px 10px 1px;
+                }
+                .element17 {
+                  width: 171.04px;
+                  height: 56px;
+                  position: relative;
+                  flex-grow: 1;
+                  .tableRow35 {
+                    width: 87.69px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    justify-content: flex-start;
+                    align-items: flex-start;
+                    position: absolute;
+                    padding: 50px 1px;
+                    .flexRow1 {
+                      display: flex;
+                      flex-direction: row;
+                      justify-content: center;
+                      align-items: center;
+                      .rowSpaced28 {
+                        font-size: 16px;
+                        font-family: "Mulish", sans-serif;
+                        letter-spacing: 0.08px;
+                        line-height: 19.2px;
+                        color: #11142d;
+                      }
+                    }
+                  }
+                  .tableRow36 {
+                    width: 147px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    justify-content: flex-start;
+                    align-items: flex-start;
+                    position: absolute;
+                    left: 497.34px;
+                    padding: 50px 10px;
+                  }
+                  .tableRow37 {
+                    width: 161px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    justify-content: flex-start;
+                    align-items: flex-start;
+                    position: absolute;
+                    left: 360px;
+                    padding: 50px 10px;
+                  }
+                  .tableRow38 {
+                    width: 171.04px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    justify-content: flex-start;
+                    align-items: flex-start;
+                    position: absolute;
+                    padding: 50px 16px 19px 10px;
+                  }
+                }
+              }
+              .divider6 {
+                width: 816.76px;
+                height: 0.5px;
+                position: absolute;
+                top: 55.75px;
+              }
+            }
+            .listProduct5 {
+              width: 816.76px;
+              height: 58px;
+              position: absolute;
+              .divider6 {
+                width: 816.76px;
+                height: 0.5px;
+                position: absolute;
+                top: 55.75px;
+              }
+              .product7 {
+                align-items: flex-start;
+                display: flex;
+                height: 56px;
+                left: 0;
+                min-width: 776px;
+                position: absolute;
+                top: 0;
+                .whiteText1 {
+                  display: flex;
+                  font-size: 16px;
+                  font-family: "Mulish", sans-serif;
+                  letter-spacing: 0.08px;
+                  line-height: 19.2px;
+                  color: #11142d;
+                  width: 44.42px;
+                  flex-direction: column;
+                  gap: 10px;
+                  justify-content: center;
+                  align-items: center;
+                  padding: 50px 1px 10px 1px;
+                }
+                .tableRow28 {
+                  width: 171.04px;
+                  display: flex;
+                  flex-direction: column;
+                  gap: 10px;
+                  justify-content: flex-start;
+                  align-items: flex-start;
+                  padding: 45px 16px 1px 10px;
+                  margin: 0px 170.3px 0px 0px;
+                  .element23 {
+                    width: 203px;
+                    height: 19px;
+                    position: relative;
+                    .rowSpaced28 {
+                      font-size: 16px;
+                      font-family: "Mulish", sans-serif;
+                      letter-spacing: 0.08px;
+                      line-height: 19.2px;
+                      color: #11142d;
+                    }
+                  }
+                }
+                .element24 {
+                  align-self: stretch;
+                  width: 245.73px;
+                  height: 58px;
+                  position: relative;
+                  flex-grow: 1;
+                  .tableRow35 {
+                    width: 87.69px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    justify-content: flex-start;
+                    align-items: flex-start;
+                    position: absolute;
+                    padding: 50px 1px;
+                  }
+                  .tableRow26 {
+                    width: 91.73px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    justify-content: flex-start;
+                    align-items: flex-start;
+                    position: absolute;
+                    top: 2px;
+                    left: 138px;
+                    padding: 50px 1px;
+                  }
+                  .tableRow37 {
+                    width: 161px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    justify-content: flex-start;
+                    align-items: flex-start;
+                    position: absolute;
+                    padding: 50px 10px;
+                  }
+                }
+              }
+            }
+          }
+          .listProduct7 {
+            height: 57px;
+            position: relative;
+            width: 817px;
+            .divider6 {
+              width: 817px;
+              height: 1px;
+              position: absolute;
+              top: 56px;
+            }
+            .product7 {
+              align-items: flex-start;
+              display: flex;
+              height: 56px;
+              left: 0;
+              min-width: 776px;
+              position: absolute;
+              top: 0;
+              .whiteText2 {
+                display: flex;
+                font-size: 16px;
+                font-family: "Mulish", sans-serif;
+                letter-spacing: 0.08px;
+                line-height: 19.2px;
+                color: #11142d;
+                width: 44.42px;
+                flex-direction: column;
+                gap: 10px;
+                justify-content: center;
+                align-items: center;
+                padding: 75px 1px 10px 1px;
+              }
+              .element17 {
+                width: 171.04px;
+                height: 56px;
+                position: relative;
+                flex-grow: 1;
+                .tableRow35 {
+                  width: 87.69px;
+                  display: flex;
+                  flex-direction: column;
+                  gap: 10px;
+                  justify-content: flex-start;
+                  align-items: flex-start;
+                  position: absolute;
+                  padding: 50px 1px;
+                }
+              }
+            }
+          }
+        }
+        .listProduct7 {
+          height: 57px;
+          position: relative;
+          width: 817px;
+          .divider6 {
+            width: 817px;
+            height: 1px;
+            position: absolute;
+            top: 56px;
+          }
+          .product7 {
+            align-items: flex-start;
+            display: flex;
+            height: 56px;
+            left: 0;
+            min-width: 776px;
+            position: absolute;
+            top: 0;
+            .whiteText3 {
+              display: flex;
+              font-size: 16px;
+              font-family: "Mulish", sans-serif;
+              letter-spacing: 0.08px;
+              line-height: 19.2px;
+              color: #11142d;
+              width: 44.42px;
+              flex-direction: column;
+              gap: 10px;
+              justify-content: center;
+              align-items: center;
+              padding: 80px 1px 10px 1px;
+            }
+          }
+        }
+        .product1 {
+          width: 776.41px;
+          display: flex;
+          align-self: flex-start;
+          flex-direction: row;
+          justify-content: flex-start;
+          align-items: center;
+          margin: 0px 0px 1px 0px;
+          .whiteText1 {
+            display: flex;
+            font-size: 16px;
+            font-family: "Mulish", sans-serif;
+            letter-spacing: 0.08px;
+            line-height: 19.2px;
+            color: #11142d;
+            width: 44.42px;
+            flex-direction: column;
+            gap: 10px;
+            justify-content: center;
+            align-items: center;
+            padding: 55px 1px 10px 1px;
+          }
+          .element17 {
+            width: 171.04px;
+            height: 56px;
+            position: relative;
+            flex-grow: 1;
+            .tableRow35 {
+              width: 87.69px;
+              display: flex;
+              flex-direction: column;
+              gap: 10px;
+              justify-content: flex-start;
+              align-items: flex-start;
+              position: absolute;
+              padding: 40px 1px;
+              .flexRow1 {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                .rowSpaced28 {
+                  font-size: 16px;
+                  font-family: "Mulish", sans-serif;
+                  letter-spacing: 0.08px;
+                  line-height: 19.2px;
+                  color: #11142d;
+                }
+              }
+            }
+            .tableRow36 {
+              width: 147px;
+              display: flex;
+              flex-direction: column;
+              gap: 10px;
+              justify-content: flex-start;
+              align-items: flex-start;
+              position: absolute;
+              left: 497.34px;
+              padding: 40px 10px;
+            }
+            .tableRow37 {
+              width: 161px;
+              display: flex;
+              flex-direction: column;
+              gap: 10px;
+              justify-content: flex-start;
+              align-items: flex-start;
+              position: absolute;
+              left: 360px;
+              padding: 40px 1px;
+            }
+            .tableRow38 {
+              width: 171.04px;
+              display: flex;
+              flex-direction: column;
+              gap: 10px;
+              justify-content: flex-start;
+              align-items: flex-start;
+              position: absolute;
+              padding: 40px 16px 19px 10px;
+            }
+          }
+        }
+        .listProduct {
+          width: 816.76px;
+          height: 56px;
+          position: relative;
+          .divider6 {
+            width: 817px;
+            height: 1px;
+            position: absolute;
+            top: 56px;
+          }
+          .product7 {
+            align-items: flex-start;
+            display: flex;
+            height: 56px;
+            left: 0;
+            min-width: 776px;
+            position: absolute;
+            top: 0;
+            .whiteText1 {
+              display: flex;
+              font-size: 16px;
+              font-family: "Mulish", sans-serif;
+              letter-spacing: 0.08px;
+              line-height: 19.2px;
+              color: #11142d;
+              width: 44.42px;
+              flex-direction: column;
+              gap: 10px;
+              justify-content: center;
+              align-items: center;
+              padding: 50px 1px 10px 1px;
+            }
+          }
+
+          .element17 {
+            width: 171.04px;
+            height: 56px;
+            position: relative;
+            flex-grow: 1;
+            .tableRow35 {
+              width: 87.69px;
+              display: flex;
+              flex-direction: column;
+              gap: 10px;
+              justify-content: flex-start;
+              align-items: flex-start;
+              position: absolute;
+              padding: 40px 1px;
+            }
+            .tableRow36 {
+              width: 147px;
+              display: flex;
+              flex-direction: column;
+              gap: 10px;
+              justify-content: flex-start;
+              align-items: flex-start;
+              position: absolute;
+              left: 497.34px;
+              padding: 40px 10px;
+            }
+            .tableRow37 {
+              width: 161px;
+              display: flex;
+              flex-direction: column;
+              gap: 10px;
+              justify-content: flex-start;
+              align-items: flex-start;
+              position: absolute;
+              left: 360px;
+              padding: 40px 10px;
+            }
+            .tableRow38 {
+              width: 171.04px;
+              display: flex;
+              flex-direction: column;
+              gap: 10px;
+              justify-content: flex-start;
+              align-items: flex-start;
+              position: absolute;
+              padding: 38px 10px;
+            }
+          }
+        }
+      }
+    }
+    .container1 {
+      height: 572px;
+      background-color: #ffffff;
+      display: flex;
+      align-self: flex-end;
+      flex-direction: column;
+      border-radius: 8px;
+      padding: 23px 4px 16px 16px;
+      .flexRow27 {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 108px;
+        align-items: center;
+        margin: 0px 0px 14px 0px;
+        .button1 {
+          border-color: #5441d6;
+          border-style: solid;
+          display: flex;
+          flex-direction: row;
+          gap: 10px;
+          justify-content: flex-start;
+          align-items: center;
+          border-radius: 8px;
+          padding: 8px 24px;
+          border-width: 2px;
+          background: none;
+          box-sizing: content-box;
+          cursor: pointer;
+          &:hover {
+            opacity: 70%;
+          }
+          .flexRow28 {
+            display: flex;
+            flex-direction: row;
+            gap: 24px;
+            justify-content: flex-start;
+            align-items: center;
+            .clickHere {
+              font-size: 16px;
+              font-family: "Mulish", sans-serif;
+              font-weight: 700;
+              letter-spacing: 0.08px;
+              line-height: 19.2px;
+              color: #5441d6;
+            }
+            .chevronButton {
+              width: 24px;
+              height: 24px;
+            }
+          }
+        }
+      }
+      .divider9 {
+        width: 368px;
+        height: 1px;
+        align-self: flex-start;
+        margin: 0px 0px 24px 0px;
+      }
+      .flexRow1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        .flexColumn8 {
+          width: 360px;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          gap: 16px;
+          flex-grow: 1;
+          align-items: center;
+          .productItem5 {
+            width: 360px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            .imagePlaceholder {
+              width: 64px;
+              height: 64px;
+              background-color: #e2e2ea;
+              border-radius: 8px;
+              margin: 0px 24px 0px 0px;
+            }
+            .text15 {
+              width: 151px;
+              font-size: 16px;
+              font-family: "Mulish", sans-serif;
+              font-weight: 700;
+              letter-spacing: 0.08px;
+              line-height: 19.2px;
+              color: #11142d;
+            }
+          }
+        }
+        .whiteFlexColumn {
+          height: 491px;
+          background-color: #e2e2ea;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          align-items: center;
+          .purpleHeartRectangle {
+            width: 4px;
+            height: 128px;
+            background-color: #5441d6;
+            border-radius: 2px;
+          }
+        }
+      }
+    }
+  }
+}

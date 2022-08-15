@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.navbar {
+  align-items: flex-start;
+  display: flex;
+  min-width: 1440px;
+  .overlap-group {
+    height: 80px;
+    position: relative;
+    width: 1440px;
+    .container {
+      background-color: rgba(255, 255, 255, 1);
+      height: 80px;
+      left: 0;
+      position: absolute;
+      top: 0;
+      transform: rotate(180deg);
+      width: 1440px;
+    }
+    .notification-bell {
+      height: 24px;
+      left: 1175px;
+      position: absolute;
+      top: 28px;
+      width: 24px;
+    }
+    .profile {
+      align-items: center;
+      display: flex;
+      height: 41px;
+      left: 1227px;
+      max-width: 185px;
+      position: absolute;
+      top: 19px;
+      .container-1 {
+        background-color: rgba(196, 196, 196, 1);
+        border-radius: 20px;
+        height: 41px;
+        width: 40px;
+      }
+      .flex-col {
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        margin-left: 16px;
+        margin-top: 0.43px;
+        min-height: 37px;
+        width: 125px;
+        .sumanto {
+          letter-spacing: 0.08px;
+          line-height: 19.2px;
+          min-height: 19px;
+          white-space: nowrap;
+          color: rgba(17, 20, 45, 1);
+          font-family: "Mulish", sans-serif;
+          font-size: 16px;
+          font-weight: 400;
+          font-style: normal;
+        }
+        .cashier {
+          letter-spacing: 0.1px;
+          line-height: 14.4px;
+          margin-top: 4px;
+          min-height: 14px;
+          white-space: nowrap;
+          color: rgba(154, 154, 176, 1);
+          font-family: "Mulish", sans-serif;
+          font-size: 12px;
+          font-weight: 400;
+          font-style: normal;
+        }
+      }
+    }
+    .divider {
+      height: 1px;
+      left: 0;
+      position: absolute;
+      top: 79px;
+      width: 1440px;
+    }
+    .logo {
+      align-items: center;
+      display: flex;
+      height: 40px;
+      left: 32px;
+      min-width: 129px;
+      position: absolute;
+      top: 20px;
+
+      .logo-placeholder {
+        background-color: rgba(226, 226, 234, 1);
+        border-radius: 8px;
+        height: 40px;
+        width: 40px;
+      }
+      .title {
+        text-decoration: none;
+        letter-spacing: 0.12px;
+        line-height: 28.8px;
+        margin-left: 8px;
+        margin-top: 1px;
+        min-height: 29px;
+        min-width: 79px;
+        white-space: nowrap;
+        color: rgba(17, 20, 45, 1);
+        font-family: "Mulish", sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+        font-style: normal;
+      }
+    }
+  }
+}

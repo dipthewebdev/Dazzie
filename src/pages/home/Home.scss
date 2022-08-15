@@ -1,0 +1,10 @@
+.home {
+  display: flex;
+  .homeContainer {
+    flex: 6;
+    .dashboard {
+      display: flex;
+      background-color: #f7f7fc;
+    }
+  }
+}

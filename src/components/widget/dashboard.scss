@@ -1,0 +1,261 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.dashboard {
+  align-items: flex-start;
+  display: flex;
+  height: 1125px;
+  min-width: 1268px;
+  .overlay {
+    height: 1069px;
+    background-color: #ffffff;
+    display: flex;
+    position: absolute;
+    top: 120px;
+    left: 144px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    padding: 24px 0px 32px 0px;
+    .textInput {
+      width: 1215.38px;
+      height: 40px;
+      background-color: #f6f6fb;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      justify-content: center;
+      align-items: flex-start;
+      border-radius: 8px;
+      padding: 8px 16px;
+      margin: 0px 0px 32px 0px;
+      .flexRow {
+        display: flex;
+        flex-direction: row;
+        gap: 8px;
+        justify-content: flex-start;
+        align-items: center;
+        .roundActionSearch {
+          width: 24px;
+          height: 24px;
+          position: relative;
+          .iconColor {
+            width: 17.05px;
+            height: 17.06px;
+            position: absolute;
+            top: 3px;
+            left: 3px;
+          }
+        }
+        .placeHolder {
+          width: 298px;
+          font-size: 14px;
+          font-family: "Mulish", sans-serif;
+          letter-spacing: 0.11px;
+          line-height: 18.2px;
+          color: #9a9ab0;
+          flex-grow: 1;
+          padding: 0px;
+          border-width: 0px;
+          background: none;
+          ::placeholder {
+            color: #9a9ab0;
+          }
+          display: inline-block;
+          outline-width: 0;
+        }
+      }
+    }
+    .tabs {
+      width: 1264px;
+      height: 39px;
+      position: relative;
+      margin: 0px 0px 40px 0px;
+      .text1 {
+        text-align: center;
+        width: 113.94px;
+        font-size: 16px;
+        font-family: "Mulish", sans-serif;
+        font-weight: 700;
+        letter-spacing: 0.08px;
+        line-height: 19.2px;
+        color: #92929d;
+        position: absolute;
+        left: 1077.13px;
+      }
+      .text2 {
+        text-align: center;
+        width: 72.92px;
+        font-size: 16px;
+        font-family: "Mulish", sans-serif;
+        font-weight: 700;
+        letter-spacing: 0.08px;
+        line-height: 19.2px;
+        color: #92929d;
+        position: absolute;
+        left: 846.21px;
+      }
+      .text3 {
+        text-align: center;
+        width: 75.96px;
+        font-size: 16px;
+        font-family: "Mulish", sans-serif;
+        font-weight: 700;
+        letter-spacing: 0.08px;
+        line-height: 19.2px;
+        color: #92929d;
+        position: absolute;
+        left: 592.5px;
+      }
+      .text4 {
+        text-align: center;
+        width: 59.25px;
+        font-size: 16px;
+        font-family: "Mulish", sans-serif;
+        font-weight: 700;
+        letter-spacing: 0.08px;
+        line-height: 19.2px;
+        color: #92929d;
+        position: absolute;
+        left: 347.9px;
+      }
+      .tabContainer {
+        width: 1264px;
+        height: 4px;
+        position: absolute;
+        top: 35px;
+      }
+      .TabActive {
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        gap: 16px;
+        justify-content: center;
+        align-items: center;
+        .text5 {
+          text-align: center;
+          width: 31.9px;
+          font-size: 16px;
+          font-family: "Mulish", sans-serif;
+          font-weight: 700;
+          letter-spacing: 0.08px;
+          line-height: 19.2px;
+          color: #11142d;
+        }
+        .tabFill {
+          width: 252.19px;
+          height: 4px;
+        }
+      }
+    }
+    .text6 {
+      font-size: 24px;
+      font-family: "Mulish", sans-serif;
+      font-weight: 700;
+      letter-spacing: 0.07px;
+      line-height: 28.8px;
+      color: #11142d;
+      align-self: flex-start;
+      margin: 0px 0px 24px 24.31px;
+      width: 86.6px;
+    }
+    .flexRow1 {
+      display: flex;
+      flex-direction: row;
+      gap: 24px;
+      justify-content: flex-start;
+      align-items: flex-start;
+      margin: 0px 0px 24px 0px;
+      .card4 {
+        border-style: solid;
+        height: 236px;
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        border-radius: 8px;
+        padding: 7px 11.15px;
+        border-width: 1px;
+        border-color: #dad6f4;
+        .imagePlaceholder8 {
+          width: 364.62px;
+          height: 166px;
+          background-color: #e2e2ea;
+          border-radius: 8px;
+          margin: 0px 0px 16px 0px;
+        }
+        .text7 {
+          width: 340.31px;
+          font-size: 16px;
+          font-family: "Mulish", sans-serif;
+          font-weight: 700;
+          letter-spacing: 0.08px;
+          line-height: 19.2px;
+          color: #11142d;
+          margin: 0px 0px 8px 0px;
+        }
+        .text8 {
+          width: 44.06px;
+          font-size: 16px;
+          font-family: "Mulish", sans-serif;
+          font-weight: 700;
+          letter-spacing: 0.08px;
+          line-height: 19.2px;
+          color: #42bca1;
+          align-self: flex-start;
+          margin: 0px 0px 0px 12.15px;
+        }
+      }
+    }
+    .flexRow2 {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 0px 24.31px;
+      margin: 0px 0px 32px 0px;
+      .card3 {
+        border-style: solid;
+        height: 236px;
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        border-radius: 8px;
+        padding: 7px 11.15px;
+        margin: 0px 24.31px 0px 0px;
+        border-width: 1px;
+        border-color: #dad6f4;
+        .imagePlaceholder8 {
+          width: 364.62px;
+          height: 166px;
+          background-color: #e2e2ea;
+          border-radius: 8px;
+          margin: 0px 0px 16px 0px;
+        }
+        .text7 {
+          width: 340.31px;
+          font-size: 16px;
+          font-family: "Mulish", sans-serif;
+          font-weight: 700;
+          letter-spacing: 0.08px;
+          line-height: 19.2px;
+          color: #11142d;
+          margin: 0px 0px 8px 0px;
+        }
+        .text8 {
+          width: 44.06px;
+          font-size: 16px;
+          font-family: "Mulish", sans-serif;
+          font-weight: 700;
+          letter-spacing: 0.08px;
+          line-height: 19.2px;
+          color: #42bca1;
+          align-self: flex-start;
+          margin: 0px 0px 0px 12.15px;
+        }
+      }
+    }
+  }
+}

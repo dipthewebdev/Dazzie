@@ -1,0 +1,87 @@
+.sidebar {
+  width: 112px;
+  height: 1285px;
+  position: absolute;
+  .container {
+    height: 1057px;
+    background-color: #fff;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    padding: 120px 28px 108px 28px;
+    .activeContainer {
+      height: 56px;
+      background-color: #5441d6;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-radius: 8px;
+      padding: 0px 16px;
+      margin: 0px 0px 40px 0px;
+      .menu {
+        width: 24px;
+        height: 24px;
+      }
+    }
+    .chartStatistics {
+      width: 24px;
+      height: 24px;
+      margin: 0px 0px 56px 0px;
+      cursor: pointer;
+    }
+    .Element10 {
+      width: 24px;
+      height: 24px;
+      position: relative;
+      margin: 0px 0px 56px 0px;
+      cursor: pointer;
+      .secondary {
+        width: 16px;
+        height: 15.98px;
+        position: absolute;
+        top: 4.01px;
+        left: 3.99px;
+      }
+      .primary {
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: 2.01px;
+        left: 1.99px;
+      }
+    }
+    .CouponDiscount {
+      width: 24px;
+      height: 24px;
+      margin: 0px 0px 57px 0px;
+      cursor: pointer;
+    }
+    .Icon1 {
+      width: 22px;
+      height: 22px;
+      margin: 0px 0px 594px 0px;
+      cursor: pointer;
+    }
+    .RoundActionSearch {
+      width: 24px;
+      height: 24px;
+      position: relative;
+      .IconColor1 {
+        width: 19.45px;
+        height: 20px;
+        position: absolute;
+        top: 2px;
+        left: 2.27px;
+      }
+    }
+  }
+  .divider {
+    width: 1px;
+    height: 1205px;
+    position: absolute;
+    top: 80px;
+    left: 112px;
+  }
+}
